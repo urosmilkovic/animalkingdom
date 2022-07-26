@@ -22,7 +22,7 @@ const HomePage = () => {
       />
       <HomePageNewBags>
         <HomePageNewBagsImage>
-          <Image src="/assets/images/new-bags.png" />
+          <Image src="https://www.photobox.co.uk/my/photo/full?photo_id=504785196718" />
         </HomePageNewBagsImage>
         <Heading variant="h2">
           {t`CHOOSE THE PERFECT COMBINATION FOR YOUR PET`}
