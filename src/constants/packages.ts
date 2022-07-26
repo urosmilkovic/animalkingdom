@@ -151,7 +151,7 @@ const Packages = [
       'The composition and amount of food are based on the needs of an adult dog and normal ambient temperatures. The individual needs of dogs vary and the diet should be adapted to keep the dog in a healthy and normal condition.',
     storage:
       'Store in a dry, cool and dark place. Protected from the entry of rodents, insects, birds and other animals.',
-    image: 'http://localhost:3000/assets/images/crocet.png',
+    image: 'https://i.postimg.cc/gd7pzdDb/crocet.png',
     link: '/products/6',
     table: [
       ['3-10kg', '100-190g'],
