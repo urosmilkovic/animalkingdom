@@ -43,7 +43,7 @@ const HomePage = () => {
           description={t`It is very important how the puppy develops, we need to assess his need for food well. What is also important and should take into account the diversity of breeds and how much the puppy is able to digest food. Complete food, dry or in soup, is recommended, with the puppy best regulating his daily consumption.`}
           bagImage="https://img.bazzar.cloud/BnAiZ-E/rs:fit:1000:1000:1:1:ce/t:0/fn:puppy_20kg_l/czM6Ly9kYXRhc3Rv/cmUuYmF6emFyLmhy/L01YWGZKb3VFTjky/dk10YzhhbXZldkVn/bg"
           actions={[
-            <Button color="warning" variant="contained" href="/products">
+            <Button color="warning" variant="contained" href="/products/2">
               {t`Learn more`}
             </Button>,
           ]}
@@ -55,7 +55,7 @@ const HomePage = () => {
           description={t`For adult dogs, the diet should maintain weight with good digestibility of food. Fat should not be given excessively to the dog. If the dog is not overly active, one should take care and achieve the state of overall health, avoid the tendency towards obesity, which is very common in dogs.`}
           bagImage="https://img.bazzar.cloud/5YdiZXQ/rs:fit:1000:1000:1:1:ce/t:0/fn:adult_20kg_r/czM6Ly9kYXRhc3Rv/cmUuYmF6emFyLmhy/L1ZHeEdCRHFtV0hG/amUzVmN6WHZCTkc0/QQ"
           actions={[
-            <Button color="success" variant="contained">
+            <Button color="success" variant="contained" href="/products/3">
               {t`Learn more`}
             </Button>,
           ]}
@@ -67,7 +67,7 @@ const HomePage = () => {
           description={t`Energy intake in active dogs depends on the type of dog, dog activity, time, etc. All intensely active dogs require a diet rich in calories and nutrients. Active dogs require 1.5 to 2.5 times more energy than ordinary dogs.`}
           bagImage="https://img.bazzar.cloud/AzLqANE/rs:fit:1000:1000:1:1:ce/t:0/fn:active_20kg_l/czM6Ly9kYXRhc3Rv/cmUuYmF6emFyLmhy/L01ZaWFLTVQ3TE5y/OVY4UWV4V21SR2tN/Zg"
           actions={[
-            <Button color="error" variant="contained" href="/products">
+            <Button color="error" variant="contained" href="/products/1">
               {t`Learn more`}
             </Button>,
           ]}
@@ -79,7 +79,7 @@ const HomePage = () => {
           description={t`Composition: nutrients of plant origin-grain nutrients, oil industry products, animal nutrition products-processed protein of animal origin, fish flour, mineral nutrients-Ca, P, Na. Additives: vitamins, minerals, amino acids.`}
           bagImage="https://img.bazzar.cloud/t2brccs/rs:fit:1000:1000:1:1:ce/t:0/fn:super_active_20kgr/czM6Ly9kYXRhc3Rv/cmUuYmF6emFyLmhy/L0VhckVtRFJ5aUZy/Nko1dksyVnRkNGlo/eA"
           actions={[
-            <Button color="success" variant="contained" href="/products">
+            <Button color="success" variant="contained" href="/products/0">
               {t`Learn more`}
             </Button>,
           ]}
@@ -91,7 +91,7 @@ const HomePage = () => {
           description={t`Composition: nutrients of plant origin – grain nutrients, oil industry products, animal nutrition products – processed protein of animal origin. Classic does not contain GMO.`}
           bagImage="https://img.bazzar.cloud/avWqUYM/rs:fit:500:500:1:1:ce/t:0/fn:classic_mix_2kg_l/czM6Ly9kYXRhc3Rv/cmUuYmF6emFyLmhy/L0c0YUtXV29QeGVQ/Q2JSc0RQdVFlYmpS/Rw"
           actions={[
-            <Button color="important" variant="contained" href="/products">
+            <Button color="important" variant="contained" href="/products/5">
               {t`Learn more`}
             </Button>,
           ]}
@@ -103,7 +103,7 @@ const HomePage = () => {
           description={t`Composition: nutrients of plant origin – grain nutrients, oil industry products, animal nutrition products – processed protein of animal origin. Classic does not contain GMO.`}
           bagImage="https://img.bazzar.cloud/aJTKUH8/rs:fit:1000:1000:1:1:ce/t:0/fn:classic_10kg_r/czM6Ly9kYXRhc3Rv/cmUuYmF6emFyLmhy/L1c2MnoxQjhTb0hm/NjIycWVLZ2tDTVND/eQ"
           actions={[
-            <Button color="info" variant="contained" href="/products">
+            <Button color="info" variant="contained" href="/products/4">
               {t`Learn more`}
             </Button>,
           ]}
