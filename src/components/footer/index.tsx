@@ -96,13 +96,13 @@ const Footer = () => {
             <FooterColumn>
               <FooterColumnTitle>{t`Support`}</FooterColumnTitle>
               <FooterColumnNavigation>
-                <FooterLink href="/" inline>
+                <FooterLink href="/contact-us" inline>
                   {t`Support Request`}
                 </FooterLink>
-                <FooterLink href="/" inline>
+                <FooterLink href="/contact-us" inline>
                   {t`Book a call`}
                 </FooterLink>
-                <FooterLink href="/" inline>
+                <FooterLink href="/contact-us" inline>
                   {t`Contact`}
                 </FooterLink>
               </FooterColumnNavigation>
