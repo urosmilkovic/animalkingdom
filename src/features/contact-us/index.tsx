@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Hero, Text } from 'components';
 import {
   ContactUsPageContent,
@@ -14,9 +14,23 @@ import {
 } from 'features/contact-us/styles';
 import { Email, LocationOn, Phone } from '@mui/icons-material';
 import { useLanguageContext } from 'context';
+import axios from 'axios';
 
 const ContactUsPage = () => {
   const { t } = useLanguageContext();
+  const [state, setState] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const sendEmail = async () => {
+    await axios.post('https://formsubmit.co/lju@djspotdoo.com', state);
+    setState({
+      name: '',
+      email: '',
+      message: '',
+    });
+  };
   return (
     <ContactUsPageMain>
       <Hero
@@ -35,7 +49,7 @@ const ContactUsPage = () => {
               <ContactUsPageInfoSingleSvg>
                 <Email />
               </ContactUsPageInfoSingleSvg>
-              info@djspotdoo.com
+              lju@djspotdoo.com
             </ContactUsPageInfoSingle>
             <ContactUsPageInfoSingle>
               <ContactUsPageInfoSingleSvg>
@@ -56,18 +70,26 @@ const ContactUsPage = () => {
             {t`Say something`}
           </ContactUsPageHeading>
           <ContactUsPageInput
+            value={state.name}
+            onChange={(e: any) => setState({ ...state, name: e.target.value })}
             variant="outlined"
             color="primary"
             label="Your name"
             fullWidth
           />
           <ContactUsPageInput
+            value={state.email}
+            onChange={(e: any) => setState({ ...state, email: e.target.value })}
             variant="outlined"
             color="primary"
             label="Your email"
             fullWidth
           />
           <ContactUsPageInput
+            value={state.message}
+            onChange={(e: any) =>
+              setState({ ...state, message: e.target.value })
+            }
             fullWidth
             variant="outlined"
             color="primary"
@@ -75,7 +97,12 @@ const ContactUsPage = () => {
             multiline
             rows={5}
           />
-          <ContactUsPageSubmit variant="contained" color="primary" fullWidth>
+          <ContactUsPageSubmit
+            variant="contained"
+            color="primary"
+            fullWidth
+            onClick={sendEmail}
+          >
             {t`Submit`}
           </ContactUsPageSubmit>
         </ContactUsPageForm>

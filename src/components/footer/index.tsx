@@ -45,12 +45,11 @@ const Footer = () => {
           <Text>
             {t`If you are interested in our products and would like to find out some more information, one of our advisors is excited to help.`}
           </Text>
-          <NextLink href="/become-a-partner">
+          <NextLink href="/contact-us">
             <Button
               color="primary"
               variant="contained"
               endIcon={<ArrowForward />}
-              href="/contact-us"
             >
               {t`Contact Us`}
             </Button>
@@ -60,7 +59,7 @@ const Footer = () => {
         <SecondSection spacing={10}>
           <SecondSectionInner>
             <FooterColumn>
-              <FooterColumnTitle>Pages</FooterColumnTitle>
+              <FooterColumnTitle>{t`Pages`}</FooterColumnTitle>
               <FooterColumnNavigation>
                 <FooterLink href="/" inline>
                   {t`Home`}
@@ -110,16 +109,16 @@ const Footer = () => {
             <FooterColumn>
               <FooterColumnTitle>{t`Follow Us`}</FooterColumnTitle>
               <FooterColumnNavigationInline>
-                <FooterLink href="/" inline>
+                <FooterLink href="/#" inline>
                   <Facebook />
                 </FooterLink>
-                <FooterLink href="/" inline>
+                <FooterLink href="/#" inline>
                   <LinkedIn />
                 </FooterLink>
-                <FooterLink href="/" inline>
+                <FooterLink href="/#" inline>
                   <Instagram />
                 </FooterLink>
-                <FooterLink href="/" inline>
+                <FooterLink href="/#" inline>
                   <Twitter />
                 </FooterLink>
               </FooterColumnNavigationInline>

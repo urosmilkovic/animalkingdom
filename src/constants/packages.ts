@@ -29,7 +29,7 @@ const Packages = [
     category: ['active'],
     title: 'ACTIVE',
     description:
-      'Composition: nutrients of plant origin-grain nutrients, oil industry products, animal nutrition products-processed protein of animal origin,fish flour, mineral nutrients-Ca, P, Na. Additives: vitamins, minerals, amino acids.',
+      'Composition: nutrients of plant origin-grain nutrients, oil industry products, animal nutrition products-processed protein of animal origin,fish flour, mineral nutrients-Ca, P, Na. Additives: vitamins, minerals, amino acids. ACTIVE does not contain GMO.',
     ingredients:
       'Crude proteins (min)29 % , crude fat (min)16 % , fiber (max)3 % , moisture (max) 8 % , ash (max) 7 % , vit. A 3a672a 10.000 IU, vit. D3 3a671 2.000 IU, vit. E 3a700 120 mg, vit. K3 3a710 2 mg, vit. B1 3a820 2 mg, vit B2 6 mg, vit. B63a8312 mg, vit. B1210mg, Biotin 3a880 50 mcg, calcium D pantothenate 10 mg, folic acid 3a316 500 mcg, iron El 60 mg, manganese 3b503 80 mg, zinc 3b601 50mg, copper 3b412 8 mg, iodine 3b201 800 mcg, choline chloride 3b201 500 mg, calcium 1.2 % , phosphor 1 %, sodium 0.3%, antioxidant BHT 100 mg/kg, amino-acids: methionine 3c301 0.55%, lysine 3.2.2. 0.63%, threonine 3c410 0.48 % , tryptophan 3c440 0.16 % .',
     usage:
@@ -52,7 +52,7 @@ const Packages = [
     category: ['puppy'],
     title: 'PUPPY',
     description:
-      'Composition: nutrients of plant origin-grain nutrients, oil industry products, animal nutrition products-processed protein of animal origin,fish flour, mineral nutrients-Ca, P, Na. Additives: vitamins, minerals, amino acids.',
+      'Composition: nutrients of plant origin-grain nutrients, oil industry products, animal nutrition products-processed protein of animal origin,fish flour, mineral nutrients-Ca, P, Na. Additives: vitamins, minerals, amino acids. PUPPY does not contain GMO.',
     ingredients:
       'Crude proteins (min) 31 % , crude fat (min) 16 % , fiber (max) 3 % , moisture (max) 8%, ash (max) 7%, vit. A 3a672a 12.000 IU, vit. D3 3a671 2.400 IU, vit. E 3a700 120 mg, vit. K3 3a710 2.4 mg, vit. B1 3a820 2.4 mg, vit B2 7.2 mg, vit. B6 3a831 2.4 mg, vit. B12 12 mg, Biotin 3a880 60 mcg, calcium D pantothenate 12 mg, folic acid 3a316 600 mcg, iron E1 72 mg, manganese 3b503 96 mg, zinc 3b601 60mg, copper 3b412 9.6 mg, iodine 3b201 960 mcg, choline chloride 3b201 600 mg, calcium 1.5 % , phosphor 1%, sodium 0.3%,antioxidant BHT 100 mg/kg, amino-acids: methionine 3c301 0.6 % , lysine 3.2.2. 0.63%, threonine 3c410 0.48 % , tryptophan 3c440 0.16%.',
     usage:
@@ -146,7 +146,7 @@ const Packages = [
     description:
       "Maize, by-products of the milling industry, dehydrated poultry meat, fish meal, animal fat, brewer's yeast, vegetable oil, sodium chloride, bentonite montmorillonite, vitamin-mineral premix. The product does not contain GMOs",
     ingredients:
-      'Vitamin A (Retiniil acetat, 3a672) IJ 7.2 Vitamin D3 (Holekalciferol, 3a671) IJ 745 Vitamin E (RRR-alfa tokoferol acetat, 3a700) mg 50 Vitamin B1 (tiaminmononitrat, 3a821) mg 2,1 Vitamin B2 (Riboflavin, 3a825ii) mg 5,2 Vitamin B6 (Piridoksin, 3a831) mg 1,5 Vitamin B12 (Cijanokobalamin) mcg 8,3 Niacin (Nikotinska kiselina, 3a314) mg 15  Pantotenska kiselina (kalcijum-D-pantotenat, 3a841) mg 12,5 Folna kiselina (3a316) mcg 25 Biotin (3a880) mcg 3,7 Gvožđe, Fe (gvožđe (II) sulfat monohidrat, 3b103 ) mg 120 Bakar, Cu (bakar (II) sulfat pentahidrat, 3b405) mg 18 Mangan, Mn (mangan sulfat monohidrat, 3b503) mg 2,5 Cink, Zn ( cink sulfat monohidrat, 3b605) mg 190 Jod, I ( mikrogranulisani kalcijum jodid, 3b203) mg 1 Selen, Se ( natrijum selenit, 3b802) mcg 70 Propil galat ( E310) mg 7,5 BHT (E321) mg 90',
+      'Vitamin A (Retiniil acetat, 3a672) IJ 7.2 Vitamin D3 (Holekalciferol, 3a671) IJ 745 Vitamin E (RRR-alfa tokoferol acetat, 3a700) mg 50 Vitamin B1 (tiaminmononitrat, 3a821) mg 2,1 Vitamin B2 (Riboflavin, 3a825ii) mg 5,2 Vitamin B6 (Piridoksin, 3a831) mg 1,5 Vitamin B12 (Cijanokobalamin) mcg 8,3 Niacin (Nikotinska kiselina, 3a314) mg 15 Pantotenska kiselina (kalcijum-D-pantotenat, 3a841) mg 12,5 Folna kiselina (3a316) mcg 25 Biotin (3a880) mcg 3,7 Gvožđe, Fe (gvožđe (II) sulfat monohidrat, 3b103 ) mg 120 Bakar, Cu (bakar (II) sulfat pentahidrat, 3b405) mg 18 Mangan, Mn (mangan sulfat monohidrat, 3b503) mg 2,5 Cink, Zn ( cink sulfat monohidrat, 3b605) mg 190 Jod, I ( mikrogranulisani kalcijum jodid, 3b203) mg 1 Selen, Se ( natrijum selenit, 3b802) mcg 70 Propil galat ( E310) mg 7,5 BHT (E321) mg 90',
     usage:
       'The composition and amount of food are based on the needs of an adult dog and normal ambient temperatures. The individual needs of dogs vary and the diet should be adapted to keep the dog in a healthy and normal condition.',
     storage:

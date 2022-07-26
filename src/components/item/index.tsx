@@ -29,8 +29,8 @@ const Item = ({
           </ItemCardImageHolderInner>
         </ItemCardImageHolder>
         <ItemCardContent>
-          <ItemCardContentTitle variant="h5">{title}</ItemCardContentTitle>
-          <ItemCardContentDescription>{description}</ItemCardContentDescription>
+          <ItemCardContentTitle variant="h5">{t`${title}`}</ItemCardContentTitle>
+          <ItemCardContentDescription>{t`${description}`}</ItemCardContentDescription>
           <Link href={link}>
             <ItemCardButton variant="contained" color="primary">
               {t`See more`}

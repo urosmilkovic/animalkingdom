@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import {
   ProductPageMain,
@@ -49,8 +50,8 @@ const ProductPage = ({
                     </ProductTableCell>
                   </ProductTableRow>
                   <ProductTableRow>
-                    <ProductTableCell>Masa pasa</ProductTableCell>
-                    <ProductTableCell>Potrebna kolicina hrane</ProductTableCell>
+                    <ProductTableCell>{t`Dog's weight`}</ProductTableCell>
+                    <ProductTableCell>{t`Food quantity`}</ProductTableCell>
                   </ProductTableRow>
                   {table.map((x: any) => (
                     <ProductTableRow key={x[0]}>
