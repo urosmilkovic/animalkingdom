@@ -50,6 +50,7 @@ const Footer = () => {
               color="primary"
               variant="contained"
               endIcon={<ArrowForward />}
+              href="/contact-us"
             >
               {t`Contact Us`}
             </Button>
