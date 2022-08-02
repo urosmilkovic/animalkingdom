@@ -76,7 +76,7 @@ const HomePage = () => {
           color="success"
           image="https://images.unsplash.com/photo-1568393691080-d016376b767d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
           title={t`Food for highly active dogs`}
-          description={t`Composition: nutrients of plant origin-grain nutrients, oil industry products, animal nutrition products-processed protein of animal origin, fish flour, mineral nutrients-Ca, P, Na. Additives: vitamins, minerals, amino acids.`}
+          description={t`SUPER ACTIVE BREEDERS - food for highly active dogs is a complete food for dogs exposed to a high level of physical activity. Meets the needs of working, hunting, racing, developing dogs, pregnant bitches and suckling bitches`}
           bagImage="https://img.bazzar.cloud/t2brccs/rs:fit:1000:1000:1:1:ce/t:0/fn:super_active_20kgr/czM6Ly9kYXRhc3Rv/cmUuYmF6emFyLmhy/L0VhckVtRFJ5aUZy/Nko1dksyVnRkNGlo/eA"
           actions={[
             <Button color="success" variant="contained" href="/products/0">
@@ -87,8 +87,8 @@ const HomePage = () => {
         <PackagePreview
           color="important"
           image="https://images.unsplash.com/photo-1502673530728-f79b4cab31b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-          title={t`Processed pet food - food for adult dogs`}
-          description={t`Composition: nutrients of plant origin - grain nutrients, oil industry products, animal nutrition products - processed protein of animal origin. Classic does not contain GMO.`}
+          title={t`Food for adult dogs`}
+          description={t`Composition and the amount of the food are formulated to meet the needs of a moderately active dog in the conditions of average temperature levels.`}
           bagImage="https://img.bazzar.cloud/avWqUYM/rs:fit:500:500:1:1:ce/t:0/fn:classic_mix_2kg_l/czM6Ly9kYXRhc3Rv/cmUuYmF6emFyLmhy/L0c0YUtXV29QeGVQ/Q2JSc0RQdVFlYmpS/Rw"
           actions={[
             <Button color="important" variant="contained" href="/products/5">
@@ -100,7 +100,7 @@ const HomePage = () => {
           color="info"
           image="https://images.unsplash.com/photo-1514373941175-0a141072bbc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
           title={t`CLASSIC - Food for adult dogs`}
-          description={t`Composition: nutrients of plant origin - grain nutrients, oil industry products, animal nutrition products - processed protein of animal origin. Classic does not contain GMO.`}
+          description={t`Composition and the amount of the food are formulated to meet the needs of a moderately active dog in the conditions of average temperature levels.`}
           bagImage="https://img.bazzar.cloud/aJTKUH8/rs:fit:1000:1000:1:1:ce/t:0/fn:classic_10kg_r/czM6Ly9kYXRhc3Rv/cmUuYmF6emFyLmhy/L1c2MnoxQjhTb0hm/NjIycWVLZ2tDTVND/eQ"
           actions={[
             <Button color="info" variant="contained" href="/products/4">
